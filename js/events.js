@@ -15,8 +15,6 @@ function pressIt(){
   $('#typing').on('keydown', function(k){
     if (k.key === 'G') {
       alert('You have entered "G" ')
-    } else {
-      alert('You have pressed a different key')
     }
   })
 }
