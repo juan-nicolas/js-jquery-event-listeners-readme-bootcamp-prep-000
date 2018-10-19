@@ -20,10 +20,11 @@ function pressIt(){
   })
 }
 
-// function submitIt(){
-//
-//   alert('Your form is going to be submitted now')
-// }
+function submitIt(){
+  $('form').on('submit',function(){
+    alert('Your form is going to be submitted now')
+  })
+}
 
 $(document).ready(function(){
 // call functions here
@@ -31,5 +32,5 @@ $(document).ready(function(){
 getIt();
 frameIt();
 pressIt();
-// submitIt();
+submitIt();
 });
