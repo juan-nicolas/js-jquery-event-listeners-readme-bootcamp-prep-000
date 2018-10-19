@@ -11,8 +11,19 @@ function frameIt(){
   })
 }
 
+function pressIt(){
+  $('#typing').on('keydown', function(k){
+    if (k.key === 'G') {
+      alert('You have entered "G" ')
+    } else {
+      alert('You have pressed a different key')
+    }
+  })  
+}
+
 // function submitIt(){
-//   // alert('Your form is going to be submitted now')
+//   
+//   alert('Your form is going to be submitted now')
 // }
 
 $(document).ready(function(){
@@ -20,5 +31,6 @@ $(document).ready(function(){
 
 getIt();
 frameIt();
+pressIt();
 submitIt();
 });
