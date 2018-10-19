@@ -11,14 +11,14 @@ function frameIt(){
   })
 }
 
-function submitIt(){
-  // alert('Your form is going to be submitted now')
-}
+// function submitIt(){
+//   // alert('Your form is going to be submitted now')
+// }
 
 $(document).ready(function(){
 // call functions here
 
 getIt();
 frameIt();
-submitIt();
+// submitIt();
 });
