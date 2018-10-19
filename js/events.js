@@ -18,11 +18,11 @@ function pressIt(){
     } else {
       alert('You have pressed a different key')
     }
-  })  
+  })
 }
 
 // function submitIt(){
-//   
+//
 //   alert('Your form is going to be submitted now')
 // }
 
@@ -32,5 +32,5 @@ $(document).ready(function(){
 getIt();
 frameIt();
 pressIt();
-submitIt();
+// submitIt();
 });
