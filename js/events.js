@@ -16,7 +16,7 @@ function pressIt(){
     if (k.key === 'G') {
       alert('You have entered "G" ')
     } else {
-      alert('You have pressed a different key')
+      //alert('You have pressed a different key')
     }
   })
 }
